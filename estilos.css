@@ -1,0 +1,90 @@
+header{
+    text-align: center;
+    width: auto;
+    height: 50px;
+    background-color: gainsboro;
+    font-family:'Permanent Marker', cursive;
+    
+  
+}
+header, body, .fondo, footer, article, .clateral {
+    display: block;
+}
+
+body{
+    width: auto;
+    background: url("kokoro.jpg")
+}
+h2,h3{
+    font-family:'Nerko One', cursive;
+    font-size: 25px;
+}
+
+article{
+    text-align: center;
+    height: 50%;
+    margin: 5px;
+    background-color: silver;
+}
+figure{
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+
+}
+figcaption{
+    display: none;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: white;
+    background: rgba(0,0,0, 0.7);
+    width: 90%;
+    padding: 5%;
+}
+figure:hover figcaption{
+display: block;
+}
+article{
+    width: 80%;   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    background-color: gainsboro;
+   
+
+}
+.section{
+    width: 65%;
+    float: left;
+}
+.clateral, article { 
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.clateral{
+    width: 15%;
+    padding: 1px;
+    text-align: left;
+    color: black;
+    float: right;
+    border: 2px solid gray;
+    background: gainsboro;
+  
+}
+.h2lateral{
+    color: black;
+    font-family:'Nerko One', cursive;
+    text-align: center;
+      
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    text-align: center;
+    clear: both;
+}
